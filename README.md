@@ -22,8 +22,7 @@ npm install && npm run build && npm run start
 ```js
 async function testContract() {
   try {
-
-  	const TESTNET_ENDPOINT = `https://mem-testnet-bfdc8ff3530f.herokuapp.com/`;
+    const TESTNET_ENDPOINT = `https://mem-testnet-bfdc8ff3530f.herokuapp.com/`;
     const sc = `
     /**
  *
@@ -52,6 +51,7 @@ export async function handle(state, action) {
     console.log(error);
   }
 }
+
 ```
 
 ## License
