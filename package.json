@@ -1,6 +1,6 @@
 {
   "name": "mem-testnet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "testnet endpoint for MEM network",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/decentldotland/mem-testnet#readme",
   "dependencies": {
-    "@three-em/node": "^0.3.22",
+    "@three-em/node": "^0.3.23",
     "@types/express": "^4.17.17",
     "@types/node": "^20.5.1",
     "axios": "^1.4.0",
