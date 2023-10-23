@@ -1,6 +1,6 @@
 {
   "name": "mem-testnet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "testnet endpoint for MEM network",
   "main": "index.js",
   "scripts": {
