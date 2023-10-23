@@ -65,7 +65,8 @@ export const guidGenerator = () => {
 
 app.post("/", async (req: Request, res: Response) => {
   try {
-    const { contractType, initState, input, contractSrc } = req.body;
+    const { contractType, initState, input, contractSrc, exmContext } =
+      req.body;
 
     const buffer = new TextEncoder().encode(contractSrc);
 
@@ -88,6 +89,7 @@ app.post("/", async (req: Request, res: Response) => {
         },
       ],
       contractInitState: initState,
+      maybeExmContext: exmContext ?? null,
     });
     const state = memResult.state;
     res.status(200).json({ state });
