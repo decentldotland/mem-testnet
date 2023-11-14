@@ -91,8 +91,7 @@ app.post("/", async (req: Request, res: Response) => {
       contractInitState: initState,
       maybeExmContext: exmContext ?? null,
     });
-    const state = memResult.state;
-    res.status(200).json({ state });
+    res.status(200).json({ memResult });
   } catch (error) {
     console.log(error);
   }
