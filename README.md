@@ -20,7 +20,7 @@ npm install && npm run build && npm run start
 
 ## Interact With The Testnet
 ```js
-async function testContract() {
+async function testFunction() {
   try {
     const TESTNET_ENDPOINT = `https://mem-testnet-bfdc8ff3530f.herokuapp.com/`;
     const sc = `
