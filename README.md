@@ -6,7 +6,7 @@
   <p align="center">MEM functions simulation testnet</p>
 </p>
 
-
+⚠️ We recommend using the [MEM Carbon Testnet](https://github.com/decentldotland/mem-carbon-testnet) for a smoother, production-like developer experience when testing MEM functions.
 
 ## Build & Run
 
